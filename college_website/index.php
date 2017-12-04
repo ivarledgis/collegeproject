@@ -3,11 +3,12 @@
 <head>
 	<title>Academia International College</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
  <!--  <script type="text/javascript" src="js/image.js"></script> -->
 </head>
 <body>
@@ -26,11 +27,15 @@
 
       <div id="login">
         
-       <font color="white"> Login</font>
 
-          </div>
 
-	   </div>		
+        <button class="login1">
+                <a href="#modal1" class="loginlink1">Login</a></button>
+              </div> <!-- Login closed -->
+
+         
+
+	   </div>	<!-- header closer -->	
         <div id="logo">
   </div>
 
@@ -65,6 +70,31 @@
     <li class="right"><a href="#">Submit</a></li>
   </ul>
 </div>
+
+<div class="modal_container1" id="modal1">
+            <div class="modal1">
+                <a href="#" class="close1">X</a>
+                <span class="modal_heading1">
+                    ENTER YOUR DETAILS
+                </span>
+                <form action="#">
+                    
+                    <input type="text" placeholder="Username"><br>
+                    <input type="password" placeholder="Password"><br>
+                    <input type="submit" class="btnlogin1" value="Login">
+                    <a href="#" class="forgotPassword1">
+                    Forgot Password?
+                </a>
+                </form>
+                
+            </div>
+       
+    </div><!-- modal_container1 closed --> 
+
+
+
+
+
 
 <div class="slideshow-container">
 
@@ -122,15 +152,19 @@
    </div>
    <div class="newsposted">
      <div class="news1">
-       <img src="img/1.jpg">
-       
+       <p class="newsheader">6th Academia web competition </p>
+        Students of 6th semester are organizing the 6th Academia web competition
+       <hr class="line">
      </div>
      <div class="news1">
-       <img src="img/1.jpg">
+       <p class="newsheader">Admission closed </p>
+          we are closed for admission .. since our first semester sesson are already started.
+          <hr class="line">
+     </div>
+     <div class="news1">
+        <p class="newsheader">what does the fox says</p>
+          Academia college rocks rocks rock!!!!
 
-     </div>
-     <div class="news1">
-       <img src="img/1.jpg">
 
      </div>
    </div>
@@ -172,6 +206,7 @@ Email: mail@academiacollege.edu.np <br/>
 
 </div><!-- main-conatiner div closd -->
 
+       
 
 </body>
 </html>
